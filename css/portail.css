@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenaire {
+    display: flex;
+    justify-content: center;
+}
+
+.contenaire .portail {
+    width: 20%;
+    padding: 50px;
+    position: absolute;
+    left: 37%;
+    top: 20%;
+}
+
+.contenaire .portail img{
+    background-color: rgb(149, 149, 149);
+    border: 2px solid none;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+    margin: 0 70px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 3px rgb(177, 177, 177);
+}
+
+.contenaire .portail .wlc {
+    font-weight: bold;
+}
+
+.contenaire .portail p {
+    text-align: center;
+    margin: 8px;
+}
+.contenaire .portail .btn {
+    width: 91%;
+    border: none;
+    padding: 6px 20px;
+    margin: 3px;
+    border-radius: 3px;
+    background-color: #ff0000;
+    color: white;
+}
